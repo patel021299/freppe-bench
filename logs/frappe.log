@@ -1,0 +1,60 @@
+2022-11-03 00:31:32,749 ERROR frappe New Exception collected with id: 2022-11-03 00:31:32.669824-159.89.174.68-9ba
+Site: site1.local
+Form Dict: {'sid': '73acaceff9ca6c1d8956aabf9312b4a6b6a8f9b63b7ac36c9dca2a57', 'doctype': 'Payroll Entry', 'docname': 'new-payroll-entry-1', 'cmd': 'frappe.realtime.can_subscribe_doc'}
+2022-11-03 00:32:18,571 ERROR frappe New Exception collected with id: 2022-11-03 00:32:18.476296-103.240.76.131-755
+Site: site1.local
+Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:34:26,516 ERROR frappe New Exception collected with id: 2022-11-03 00:34:26.424826-103.240.76.131-2c6
+Site: site1.local
+Form Dict: {'name': 'user-profile', 'cmd': 'frappe.desk.desk_page.getpage'}
+2022-11-03 00:34:54,843 ERROR frappe New Exception collected with id: 2022-11-03 00:34:54.809878-103.240.76.131-d62
+Site: site1.local
+Form Dict: {'doctype': 'Payroll Entry', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:35:10,957 ERROR frappe New Exception collected with id: 2022-11-03 00:35:10.908358-103.240.76.131-2a7
+Site: site1.local
+Form Dict: {'doctype': 'Payroll Entry', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:35:17,516 ERROR frappe New Exception collected with id: 2022-11-03 00:35:17.473839-103.240.76.131-e14
+Site: site1.local
+Form Dict: {'doctype': 'Payroll Settings', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:35:35,190 ERROR frappe New Exception collected with id: 2022-11-03 00:35:35.079458-103.240.76.131-576
+Site: site1.local
+Form Dict: {'doctype': 'Module Def', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:37:22,666 ERROR frappe New Exception collected with id: 2022-11-03 00:37:22.603622-103.240.76.131-92b
+Site: site1.local
+Form Dict: {'doctype': 'Workspace', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:37:36,649 ERROR frappe New Exception collected with id: 2022-11-03 00:37:36.599149-103.240.76.131-722
+Site: site1.local
+Form Dict: {'doctype': 'DocType', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:37:43,189 ERROR frappe New Exception collected with id: 2022-11-03 00:37:43.148501-103.240.76.131-a63
+Site: site1.local
+Form Dict: {'doctype': 'Workspace', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:39:11,078 ERROR frappe New Exception collected with id: 2022-11-03 00:39:11.004773-103.240.76.131-c0d
+Site: site1.local
+Form Dict: {'doctype': 'Cost Center', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:39:11,195 ERROR frappe New Exception collected with id: 2022-11-03 00:39:11.155329-103.240.76.131-4f0
+Site: site1.local
+Form Dict: {'doctype': 'Project', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:39:26,553 ERROR frappe New Exception collected with id: 2022-11-03 00:39:26.512977-103.240.76.131-21f
+Site: site1.local
+Form Dict: {'doctype': 'Account', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:39:35,793 ERROR frappe New Exception collected with id: 2022-11-03 00:39:35.758038-103.240.76.131-6a2
+Site: site1.local
+Form Dict: {'doctype': 'Account', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:41:09,018 ERROR frappe New Exception collected with id: 2022-11-03 00:41:08.962723-103.240.76.131-427
+Site: site1.local
+Form Dict: {'doctype': 'Project', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:41:09,107 ERROR frappe New Exception collected with id: 2022-11-03 00:41:09.043529-103.240.76.131-74a
+Site: site1.local
+Form Dict: {'doctype': 'Cost Center', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:42:27,408 ERROR frappe New Exception collected with id: 2022-11-03 00:42:27.384588-103.240.76.131-f96
+Site: site1.local
+Form Dict: {'doctype': 'Payroll Entry', 'name': 'HR-PRUN-2022-00001', 'items': '["Salary Slip","Journal Entry"]', 'cmd': 'frappe.desk.notifications.get_open_count'}
+2022-11-03 00:51:40,879 ERROR frappe New Exception collected with id: 2022-11-03 00:51:40.675583-103.240.76.131-824
+Site: site1.local
+Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:51:40,892 ERROR frappe New Exception collected with id: 2022-11-03 00:51:40.713057-103.240.76.131-3b2
+Site: site1.local
+Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 00:51:40,933 ERROR frappe New Exception collected with id: 2022-11-03 00:51:40.686224-103.240.76.131-602
+Site: site1.local
+Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}

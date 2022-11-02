@@ -1,0 +1,61 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "14.14.0"
+    },
+    "payments": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fe73bc72aecb4e8f776426af43fd194a02300599",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "ce5dbf891a211de2d0ec6072b6d7ff25e6530dc3",
+            "branch": "version-14"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "14.5.0"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "228ae5d838ed7629e126617166d4ec2e653882c1",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "1.0.0"
+    },
+    "ecommerce_integrations": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4a9d5c92d22362b3c3826efbf9178fa8a1e1ae2e",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "1.12.1"
+    },
+    "employeewise_payroll": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "66d56747300e1688508a73f50d0a139bc589f28e",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    }
+}

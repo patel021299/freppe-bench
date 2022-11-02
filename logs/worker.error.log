@@ -1,0 +1,88 @@
+00:21:26 Traceback (most recent call last):
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1061, in perform_job
+    rv = job.perform()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 821, in perform
+    self._result = self._execute()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 844, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 160, in execute_job
+    method(**kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1109, in create_contact
+    contact.insert(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 249, in insert
+    self._validate_links()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 898, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: bhavik@navkar.biz
+Traceback (most recent call last):
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1061, in perform_job
+    rv = job.perform()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 821, in perform
+    self._result = self._execute()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 844, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 160, in execute_job
+    method(**kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1109, in create_contact
+    contact.insert(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 249, in insert
+    self._validate_links()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 898, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: bhavik@navkar.biz
+00:21:27 Traceback (most recent call last):
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1061, in perform_job
+    rv = job.perform()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 821, in perform
+    self._result = self._execute()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 844, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 160, in execute_job
+    method(**kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1109, in create_contact
+    contact.insert(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 249, in insert
+    self._validate_links()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 898, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: bhavik@navkar.biz
+Traceback (most recent call last):
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1061, in perform_job
+    rv = job.perform()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 821, in perform
+    self._result = self._execute()
+  File "/home/bhavik/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 844, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 160, in execute_job
+    method(**kwargs)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1109, in create_contact
+    contact.insert(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 249, in insert
+    self._validate_links()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/model/document.py", line 898, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: bhavik@navkar.biz

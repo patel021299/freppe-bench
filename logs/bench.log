@@ -1,0 +1,126 @@
+2022-11-02 23:19:50,435 DEBUG cd frappe-bench && python3 -m venv env
+2022-11-02 23:19:53,509 DEBUG cd frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-11-02 23:19:57,607 LOG Getting frappe
+2022-11-02 23:19:57,607 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2022-11-02 23:20:01,744 LOG Installing frappe
+2022-11-02 23:20:01,744 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/frappe 
+2022-11-02 23:20:58,766 DEBUG cd /home/bhavik/frappe-bench/apps/frappe && yarn install
+2022-11-02 23:21:18,488 DEBUG cd frappe-bench && bench build
+2022-11-02 23:21:18,585 INFO /usr/local/bin/bench build
+2022-11-02 23:21:41,194 LOG setting up backups
+2022-11-02 23:21:41,204 LOG backups were set up
+2022-11-02 23:21:41,204 INFO Bench frappe-bench initialized
+2022-11-02 23:25:27,306 INFO /usr/local/bin/bench new-site site1.local
+2022-11-02 23:28:33,973 INFO /usr/local/bin/bench get-app payments
+2022-11-02 23:28:34,501 LOG Getting payments
+2022-11-02 23:28:34,501 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-11-02 23:28:35,777 LOG Installing payments
+2022-11-02 23:28:35,898 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/payments 
+2022-11-02 23:28:40,174 DEBUG bench build --app payments
+2022-11-02 23:28:40,276 INFO /usr/local/bin/bench build --app payments
+2022-11-02 23:29:02,699 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2022-11-02 23:29:03,234 LOG Getting erpnext
+2022-11-02 23:29:03,235 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-11-02 23:29:08,026 LOG Installing erpnext
+2022-11-02 23:29:08,158 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/erpnext 
+2022-11-02 23:29:38,068 DEBUG cd /home/bhavik/frappe-bench/apps/erpnext && yarn install
+2022-11-02 23:29:39,211 DEBUG bench build --app erpnext
+2022-11-02 23:29:39,304 INFO /usr/local/bin/bench build --app erpnext
+2022-11-02 23:29:56,137 INFO /usr/local/bin/bench get-app hrms
+2022-11-02 23:29:56,658 LOG Getting hrms
+2022-11-02 23:29:56,659 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-11-02 23:29:58,031 LOG Installing hrms
+2022-11-02 23:29:58,228 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/hrms 
+2022-11-02 23:30:00,663 DEBUG bench build --app hrms
+2022-11-02 23:30:00,757 INFO /usr/local/bin/bench build --app hrms
+2022-11-02 23:30:02,057 INFO /usr/local/bin/bench --verbose --site all backup
+2022-11-02 23:30:22,403 INFO /usr/local/bin/bench get-app ecommerce_integrations --branch main
+2022-11-02 23:30:22,899 LOG Getting ecommerce_integrations
+2022-11-02 23:30:22,900 DEBUG cd ./apps && git clone https://github.com/frappe/ecommerce_integrations.git --branch main --depth 1 --origin upstream
+2022-11-02 23:30:24,282 LOG Installing ecommerce_integrations
+2022-11-02 23:30:24,436 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/ecommerce_integrations 
+2022-11-02 23:30:31,163 DEBUG bench build --app ecommerce_integrations
+2022-11-02 23:30:31,254 INFO /usr/local/bin/bench build --app ecommerce_integrations
+2022-11-02 23:32:00,916 INFO /usr/local/bin/bench --site site1.local install-app erpnext
+2022-11-02 23:36:00,156 INFO /usr/local/bin/bench --site site1.local install-app hrms
+2022-11-02 23:38:01,374 INFO /usr/local/bin/bench --site site1.local install-app hrms
+2022-11-02 23:55:26,314 INFO /usr/local/bin/bench --site site1.local install-app ecommerce_integrations
+2022-11-03 00:00:18,823 INFO /usr/local/bin/bench --site site1.local install-app hrms
+2022-11-03 00:17:10,062 INFO /usr/local/bin/bench --site site1.local enable-scheduler
+2022-11-03 00:17:17,642 INFO /usr/local/bin/bench --site site1.local set-maintenance-mode off
+2022-11-03 00:17:35,320 INFO /usr/local/bin/bench setup production bhavik
+2022-11-03 00:17:35,327 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2022-11-03 00:17:57,742 DEBUG bench setup role fail2ban
+2022-11-03 00:17:57,841 INFO /usr/local/bin/bench setup role fail2ban
+2022-11-03 00:18:14,572 DEBUG bench setup role nginx
+2022-11-03 00:18:14,679 INFO /usr/local/bin/bench setup role nginx
+2022-11-03 00:18:28,678 DEBUG bench setup role supervisor
+2022-11-03 00:18:28,781 INFO /usr/local/bin/bench setup role supervisor
+2022-11-03 00:18:38,203 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-11-03 00:18:38,203 LOG Updated supervisord.conf: 'chown' changed from '' to 'bhavik:bhavik'
+2022-11-03 00:18:38,263 DEBUG sudo /usr/sbin/nginx -t
+2022-11-03 00:18:38,275 DEBUG sudo systemctl reload nginx
+2022-11-03 00:18:40,936 INFO /usr/local/bin/bench setup nginx
+2022-11-03 00:19:00,879 INFO /usr/local/bin/bench setup production bhavik
+2022-11-03 00:19:00,886 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-11-03 00:19:00,886 LOG Updated supervisord.conf: 'chown' changed from '' to 'bhavik:bhavik'
+2022-11-03 00:19:04,179 DEBUG /usr/bin/supervisorctl reread
+2022-11-03 00:19:04,389 DEBUG /usr/bin/supervisorctl update
+2022-11-03 00:19:04,629 DEBUG sudo /usr/sbin/nginx -t
+2022-11-03 00:19:04,643 DEBUG sudo systemctl reload nginx
+2022-11-03 00:19:05,031 INFO /usr/local/bin/bench worker --queue long
+2022-11-03 00:19:05,159 INFO /usr/local/bin/bench schedule
+2022-11-03 00:19:05,156 INFO /usr/local/bin/bench worker --queue default
+2022-11-03 00:19:05,171 INFO /usr/local/bin/bench worker --queue short
+2022-11-03 00:22:53,812 INFO /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git
+2022-11-03 00:22:53,819 LOG Getting employeewise_payroll
+2022-11-03 00:22:53,819 DEBUG cd ./apps && git clone https://github.com/open-alt/employeewise_payroll.git  --depth 1 --origin upstream
+2022-11-03 00:22:54,877 LOG Installing employeewise_payroll
+2022-11-03 00:22:55,032 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/employeewise_payroll 
+2022-11-03 00:22:56,712 DEBUG bench build --app employeewise_payroll
+2022-11-03 00:22:56,811 INFO /usr/local/bin/bench build --app employeewise_payroll
+2022-11-03 00:22:59,143 DEBUG cd /home/bhavik/frappe-bench && supervisorctl restart frappe:
+2022-11-03 00:22:59,332 WARNING cd /home/bhavik/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2022-11-03 00:22:59,332 WARNING /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git executed with exit code 1
+2022-11-03 00:23:12,762 INFO /usr/local/bin/bench schedule
+2022-11-03 00:24:16,930 INFO /usr/local/bin/bench start
+2022-11-03 00:24:43,946 INFO /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git
+2022-11-03 00:24:45,745 WARNING /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git executed with exit code 1
+2022-11-03 00:27:23,870 INFO /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git
+2022-11-03 00:27:25,642 WARNING /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git executed with exit code 1
+2022-11-03 00:29:37,024 INFO /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git
+2022-11-03 00:29:40,630 WARNING /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git executed with exit code 1
+2022-11-03 00:30:06,801 INFO /usr/local/bin/bench use site1.local
+2022-11-03 00:30:20,606 INFO /usr/local/bin/bench migrate
+2022-11-03 00:30:28,443 INFO /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git
+2022-11-03 00:30:30,370 WARNING /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git executed with exit code 1
+2022-11-03 00:30:50,186 INFO /usr/local/bin/bench --site site1.local install-app employeewise_payroll
+2022-11-03 00:31:02,985 INFO /usr/local/bin/bench use site1.local
+2022-11-03 00:31:06,795 INFO /usr/local/bin/bench migrate
+2022-11-03 00:31:18,520 INFO /usr/local/bin/bench worker --queue short
+2022-11-03 00:31:18,534 INFO /usr/local/bin/bench worker --queue default
+2022-11-03 00:31:18,564 INFO /usr/local/bin/bench schedule
+2022-11-03 00:31:18,572 INFO /usr/local/bin/bench worker --queue long
+2022-11-03 00:31:27,654 INFO /usr/local/bin/bench --site site1.local clear-website-cache
+2022-11-03 00:41:19,099 INFO /usr/local/bin/bench remove-app employeewise_payroll
+2022-11-03 00:41:19,192 INFO /usr/local/bin/bench --site all list-apps --format json
+2022-11-03 00:41:20,254 WARNING /usr/local/bin/bench remove-app employeewise_payroll executed with exit code 1
+2022-11-03 00:42:36,683 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll
+2022-11-03 00:43:04,168 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll
+2022-11-03 00:43:29,966 INFO /usr/local/bin/bench --site site1.local install-app employeewise_payroll
+2022-11-03 00:44:34,861 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll
+2022-11-03 00:45:15,290 INFO /usr/local/bin/bench start
+2022-11-03 00:45:20,227 INFO /usr/local/bin/bench --site site1.local install-app employeewise_payroll
+2022-11-03 00:45:33,079 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll
+2022-11-03 00:46:46,566 INFO /usr/local/bin/bench setup production
+2022-11-03 00:46:46,572 WARNING /usr/local/bin/bench setup production executed with exit code 2
+2022-11-03 00:47:45,734 INFO /usr/local/bin/bench remove-app employeewise_payroll
+2022-11-03 00:47:45,833 INFO /usr/local/bin/bench --site all list-apps --format json
+2022-11-03 00:47:46,931 WARNING /usr/local/bin/bench remove-app employeewise_payroll executed with exit code 1
+2022-11-03 00:48:00,579 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll
+2022-11-03 00:50:14,196 INFO /usr/local/bin/bench start
+2022-11-03 00:50:59,623 INFO /usr/local/bin/bench worker --queue default
+2022-11-03 00:50:59,656 INFO /usr/local/bin/bench worker --queue short
+2022-11-03 00:50:59,680 INFO /usr/local/bin/bench worker --queue long
+2022-11-03 00:50:59,693 INFO /usr/local/bin/bench schedule
+2022-11-03 00:51:23,179 INFO /usr/local/bin/bench --site site1.local clear-website-cache

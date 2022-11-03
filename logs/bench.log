@@ -124,3 +124,68 @@
 2022-11-03 00:50:59,680 INFO /usr/local/bin/bench worker --queue long
 2022-11-03 00:50:59,693 INFO /usr/local/bin/bench schedule
 2022-11-03 00:51:23,179 INFO /usr/local/bin/bench --site site1.local clear-website-cache
+2022-11-03 05:30:02,140 INFO /usr/local/bin/bench --verbose --site all backup
+2022-11-03 11:19:09,662 INFO /usr/local/bin/bench install-app hrms
+2022-11-03 11:20:06,081 INFO /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git
+2022-11-03 11:20:07,928 WARNING /usr/local/bin/bench get-app https://github.com/open-alt/employeewise_payroll.git executed with exit code 1
+2022-11-03 11:22:33,820 INFO /usr/local/bin/bench update
+2022-11-03 11:22:34,835 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2022-11-03 11:22:48,219 DEBUG cd /home/bhavik/frappe-bench/apps/frappe && git fetch upstream --unshallow
+2022-11-03 11:23:30,057 LOG pulling frappe
+2022-11-03 11:23:30,057 DEBUG cd /home/bhavik/frappe-bench/apps/frappe && git pull  upstream version-14
+2022-11-03 11:23:31,008 DEBUG cd /home/bhavik/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2022-11-03 11:23:31,485 DEBUG cd /home/bhavik/frappe-bench/apps/payments && git fetch upstream --unshallow
+2022-11-03 11:23:32,518 LOG pulling payments
+2022-11-03 11:23:32,518 DEBUG cd /home/bhavik/frappe-bench/apps/payments && git pull  upstream develop
+2022-11-03 11:23:33,148 DEBUG cd /home/bhavik/frappe-bench/apps/payments && find . -name "*.pyc" -delete
+2022-11-03 11:23:33,156 DEBUG cd /home/bhavik/frappe-bench/apps/hrms && git fetch upstream --unshallow
+2022-11-03 11:23:37,109 LOG pulling hrms
+2022-11-03 11:23:37,109 DEBUG cd /home/bhavik/frappe-bench/apps/hrms && git pull  upstream develop
+2022-11-03 11:23:37,761 DEBUG cd /home/bhavik/frappe-bench/apps/hrms && find . -name "*.pyc" -delete
+2022-11-03 11:23:37,802 DEBUG cd /home/bhavik/frappe-bench/apps/erpnext && git fetch upstream --unshallow
+2022-11-03 11:25:20,953 LOG pulling erpnext
+2022-11-03 11:25:20,954 DEBUG cd /home/bhavik/frappe-bench/apps/erpnext && git pull  upstream version-14
+2022-11-03 11:25:21,716 DEBUG cd /home/bhavik/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2022-11-03 11:25:21,876 DEBUG cd /home/bhavik/frappe-bench/apps/ecommerce_integrations && git fetch upstream --unshallow
+2022-11-03 11:25:24,333 LOG pulling ecommerce_integrations
+2022-11-03 11:25:24,334 DEBUG cd /home/bhavik/frappe-bench/apps/ecommerce_integrations && git pull  upstream main
+2022-11-03 11:25:24,977 DEBUG cd /home/bhavik/frappe-bench/apps/ecommerce_integrations && find . -name "*.pyc" -delete
+2022-11-03 11:25:24,984 DEBUG cd /home/bhavik/frappe-bench/apps/employeewise_payroll && git fetch upstream --unshallow
+2022-11-03 11:25:26,014 LOG pulling employeewise_payroll
+2022-11-03 11:25:26,014 DEBUG cd /home/bhavik/frappe-bench/apps/employeewise_payroll && git pull  upstream master
+2022-11-03 11:25:26,659 DEBUG cd /home/bhavik/frappe-bench/apps/employeewise_payroll && find . -name "*.pyc" -delete
+2022-11-03 11:25:26,663 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-11-03 11:25:27,900 LOG Installing frappe
+2022-11-03 11:25:27,900 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/frappe 
+2022-11-03 11:25:32,041 DEBUG cd /home/bhavik/frappe-bench/apps/frappe && yarn install
+2022-11-03 11:25:32,738 LOG Installing payments
+2022-11-03 11:25:32,738 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/payments 
+2022-11-03 11:25:34,706 LOG Installing hrms
+2022-11-03 11:25:34,707 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/hrms 
+2022-11-03 11:25:37,471 LOG Installing erpnext
+2022-11-03 11:25:37,472 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/erpnext 
+2022-11-03 11:25:40,273 DEBUG cd /home/bhavik/frappe-bench/apps/erpnext && yarn install
+2022-11-03 11:25:40,657 LOG Installing ecommerce_integrations
+2022-11-03 11:25:40,658 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/ecommerce_integrations 
+2022-11-03 11:25:45,230 LOG Installing employeewise_payroll
+2022-11-03 11:25:45,230 DEBUG cd /home/bhavik/frappe-bench && /home/bhavik/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/bhavik/frappe-bench/apps/employeewise_payroll 
+2022-11-03 11:30:02,067 INFO /usr/local/bin/bench --verbose --site all backup
+2022-11-03 11:59:17,060 INFO /usr/local/bin/bench reinstall
+2022-11-03 12:03:23,422 INFO /usr/local/bin/bench --site all list-apps
+2022-11-03 12:04:46,012 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll --force
+2022-11-03 12:05:00,637 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll --force
+2022-11-03 12:05:07,953 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise payroll --force
+2022-11-03 12:05:15,319 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewisepayroll --force
+2022-11-03 12:05:22,661 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll --force
+2022-11-03 12:06:12,380 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll --force
+2022-11-03 12:07:08,381 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll --no-backup
+2022-11-03 12:09:20,415 INFO /usr/local/bin/bench --site site1.local install-app hrms
+2022-11-03 12:10:00,194 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll --no-backup
+2022-11-03 12:13:12,021 INFO /usr/local/bin/bench --site site1.local uninstall-app employeewise_payroll --force
+2022-11-03 12:15:25,335 INFO /usr/local/bin/bench --site site1.local remove-from-installed-apps employeewise_payroll

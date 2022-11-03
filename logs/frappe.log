@@ -58,3 +58,141 @@ Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': ''
 2022-11-03 00:51:40,933 ERROR frappe New Exception collected with id: 2022-11-03 00:51:40.686224-103.240.76.131-602
 Site: site1.local
 Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:16:21,567 ERROR frappe New Exception collected with id: 2022-11-03 11:16:21.520359-103.240.79.113-1fa
+Site: site1.local
+Form Dict: {'doctype': 'Payroll Entry', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:17:28,408 ERROR frappe New Exception collected with id: 2022-11-03 11:17:28.295984-103.240.79.113-52a
+Site: site1.local
+Form Dict: {'doctype': 'Package', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:28:02,234 ERROR frappe New Exception collected with id: 2022-11-03 11:28:02.156810-103.240.79.113-017
+Site: site1.local
+Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:32:56,504 ERROR frappe New Exception collected with id: 2022-11-03 11:32:56.455819-159.89.174.68-ead
+Site: site1.local
+Form Dict: {'sid': '3656ab0f91d817ffbe29ad3ab0b7838a3ad01a3751e422d3f50a9f39', 'doctype': 'Payroll Entry', 'docname': 'HR-PRUN-2022-00001', 'cmd': 'frappe.realtime.can_subscribe_doc'}
+2022-11-03 11:32:56,560 ERROR frappe New Exception collected with id: 2022-11-03 11:32:56.511549-159.89.174.68-bf5
+Site: site1.local
+Form Dict: {'sid': '3656ab0f91d817ffbe29ad3ab0b7838a3ad01a3751e422d3f50a9f39', 'doctype': 'Payroll Entry', 'docname': 'HR-PRUN-2022-00001', 'cmd': 'frappe.realtime.can_subscribe_doc'}
+2022-11-03 11:32:56,742 ERROR frappe New Exception collected with id: 2022-11-03 11:32:56.675403-103.240.79.113-e7d
+Site: site1.local
+Form Dict: {'doctype': 'Cost Center', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:32:56,976 ERROR frappe New Exception collected with id: 2022-11-03 11:32:56.900209-103.240.79.113-242
+Site: site1.local
+Form Dict: {'doctype': 'Project', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:32:57,090 ERROR frappe New Exception collected with id: 2022-11-03 11:32:57.052697-103.240.79.113-ce7
+Site: site1.local
+Form Dict: {'doctype': 'Payroll Entry', 'name': 'HR-PRUN-2022-00001', 'items': '["Salary Slip","Journal Entry"]', 'cmd': 'frappe.desk.notifications.get_open_count'}
+2022-11-03 11:34:09,148 ERROR frappe New Exception collected with id: 2022-11-03 11:34:09.126046-159.89.174.68-102
+Site: site1.local
+Form Dict: {'sid': '3656ab0f91d817ffbe29ad3ab0b7838a3ad01a3751e422d3f50a9f39', 'doctype': 'Payroll Entry', 'docname': 'HR-PRUN-2022-00001', 'cmd': 'frappe.realtime.can_subscribe_doc'}
+2022-11-03 11:34:09,290 ERROR frappe New Exception collected with id: 2022-11-03 11:34:09.243750-103.240.79.113-338
+Site: site1.local
+Form Dict: {'doctype': 'Cost Center', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:34:09,303 ERROR frappe New Exception collected with id: 2022-11-03 11:34:09.260672-103.240.79.113-58a
+Site: site1.local
+Form Dict: {'doctype': 'Project', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:35:07,182 ERROR frappe New Exception collected with id: 2022-11-03 11:35:07.149554-103.240.79.113-607
+Site: site1.local
+Form Dict: {'doctype': 'Payroll Entry', 'name': 'HR-PRUN-2022-00001', 'cmd': 'frappe.desk.form.load.getdoc'}
+2022-11-03 11:41:07,654 ERROR frappe New Exception collected with id: 2022-11-03 11:41:07.601951-103.240.79.113-9b0
+Site: site1.local
+Form Dict: {'doctype': 'Projects Settings', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:41:19,196 ERROR frappe New Exception collected with id: 2022-11-03 11:41:19.153352-103.240.79.113-e39
+Site: site1.local
+Form Dict: {'doctype': 'Module Profile', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:41:31,153 ERROR frappe New Exception collected with id: 2022-11-03 11:41:31.098105-103.240.79.113-93d
+Site: site1.local
+Form Dict: {'doctype': 'Module Def', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:42:45,723 ERROR frappe New Exception collected with id: 2022-11-03 11:42:45.670718-103.240.79.113-fdd
+Site: site1.local
+Form Dict: {'doctype': 'Module Onboarding', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:42:53,600 ERROR frappe New Exception collected with id: 2022-11-03 11:42:53.507283-103.240.79.113-c9b
+Site: site1.local
+Form Dict: {'doctype': 'Module Def', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:42:59,697 ERROR frappe New Exception collected with id: 2022-11-03 11:42:59.645313-103.240.79.113-282
+Site: site1.local
+Form Dict: {'doctype': 'DocType', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:46:06,242 ERROR frappe New Exception collected with id: 2022-11-03 11:46:06.175931-103.240.79.113-481
+Site: site1.local
+Form Dict: {'doctype': 'DocType', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:46:13,951 ERROR frappe New Exception collected with id: 2022-11-03 11:46:13.903858-103.240.79.113-536
+Site: site1.local
+Form Dict: {'doctype': 'DocType', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:46:54,805 ERROR frappe New Exception collected with id: 2022-11-03 11:46:54.762933-103.240.79.113-70d
+Site: site1.local
+Form Dict: {'doctype': 'Workspace', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 11:47:28,322 ERROR frappe New Exception collected with id: 2022-11-03 11:47:28.279326-103.240.79.113-0c4
+Site: site1.local
+Form Dict: {'doctype': 'Workspace', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2022-11-03 12:03:28,579 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,580 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,580 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,581 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,582 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,582 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,583 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,583 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,584 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,585 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,586 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,586 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,587 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,587 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,588 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,589 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,589 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,590 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,590 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,590 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,591 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,591 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:03:28,592 ERROR frappe Error while inserting deferred Route History record: Could not find User: bhavik@navkar.biz
+Site: site1.local
+Form Dict: {}
+2022-11-03 12:06:22,190 ERROR frappe New Exception collected with id: 2022-11-03 12:06:22.111364-103.240.79.113-1f7
+Site: site1.local
+Form Dict: {'doctype': 'Salary Slip', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}

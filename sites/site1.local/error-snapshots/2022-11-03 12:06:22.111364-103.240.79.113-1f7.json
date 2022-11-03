@@ -1,0 +1,959 @@
+{
+ "etype": "ImportError",
+ "evalue": "ImportError(\"cannot import name 'PayrollEntry' from partially initialized module 'employeewise_payroll.hooks' (most likely due to a circular import) (/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/hooks.py)\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   99,
+   97,
+   110,
+   110,
+   111,
+   116,
+   32,
+   105,
+   109,
+   112,
+   111,
+   114,
+   116,
+   32,
+   110,
+   97,
+   109,
+   101,
+   32,
+   39,
+   80,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   69,
+   110,
+   116,
+   114,
+   121,
+   39,
+   32,
+   102,
+   114,
+   111,
+   109,
+   32,
+   112,
+   97,
+   114,
+   116,
+   105,
+   97,
+   108,
+   108,
+   121,
+   46,
+   46,
+   46,
+   112,
+   108,
+   111,
+   121,
+   101,
+   101,
+   119,
+   105,
+   115,
+   101,
+   95,
+   112,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   47,
+   101,
+   109,
+   112,
+   108,
+   111,
+   121,
+   101,
+   101,
+   119,
+   105,
+   115,
+   101,
+   95,
+   112,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   47,
+   104,
+   111,
+   111,
+   107,
+   115,
+   46,
+   112,
+   121,
+   41,
+   34,
+   44,
+   41
+  ],
+  "msg": [
+   34,
+   99,
+   97,
+   110,
+   110,
+   111,
+   116,
+   32,
+   105,
+   109,
+   112,
+   111,
+   114,
+   116,
+   32,
+   110,
+   97,
+   109,
+   101,
+   32,
+   39,
+   80,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   69,
+   110,
+   116,
+   114,
+   121,
+   39,
+   32,
+   102,
+   114,
+   111,
+   109,
+   32,
+   112,
+   97,
+   114,
+   116,
+   105,
+   97,
+   108,
+   108,
+   121,
+   46,
+   46,
+   46,
+   112,
+   108,
+   111,
+   121,
+   101,
+   101,
+   119,
+   105,
+   115,
+   101,
+   95,
+   112,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   47,
+   101,
+   109,
+   112,
+   108,
+   111,
+   121,
+   101,
+   101,
+   119,
+   105,
+   115,
+   101,
+   95,
+   112,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   47,
+   104,
+   111,
+   111,
+   107,
+   115,
+   46,
+   112,
+   121,
+   41,
+   34
+  ],
+  "name": [
+   39,
+   101,
+   109,
+   112,
+   108,
+   111,
+   121,
+   101,
+   101,
+   119,
+   105,
+   115,
+   101,
+   95,
+   112,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   46,
+   104,
+   111,
+   111,
+   107,
+   115,
+   39
+  ],
+  "path": [
+   39,
+   47,
+   104,
+   111,
+   109,
+   101,
+   47,
+   98,
+   104,
+   97,
+   118,
+   105,
+   107,
+   47,
+   102,
+   114,
+   97,
+   112,
+   112,
+   101,
+   45,
+   98,
+   101,
+   110,
+   99,
+   104,
+   47,
+   97,
+   112,
+   112,
+   115,
+   47,
+   101,
+   109,
+   112,
+   108,
+   111,
+   121,
+   101,
+   101,
+   119,
+   105,
+   115,
+   101,
+   95,
+   112,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   47,
+   101,
+   109,
+   112,
+   108,
+   111,
+   121,
+   101,
+   101,
+   119,
+   105,
+   115,
+   101,
+   95,
+   112,
+   97,
+   121,
+   114,
+   111,
+   108,
+   108,
+   47,
+   104,
+   111,
+   111,
+   107,
+   115,
+   46,
+   112,
+   121,
+   39
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   73,
+   109,
+   112,
+   111,
+   114,
+   116,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://159.89.174.68/api/method/frappe...arent=1&cached_timestamp=&_=1667457380195' [GET]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/bhavik/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/api/\"):",
+    "69": "\t\t\tresponse = frappe.api.handle()",
+    "70": "",
+    "71": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 69
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/bhavik/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.form.load.getdoctype'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='frappe.desk.form.load.getdoctype', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'doctype': 'Salary Slip', 'with_parent': '1', '...': '', 'cmd': 'frappe.desk.form.load.getdoctype'}",
+    "global frappe": "<module 'frappe' from '/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function getdoctype>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function getdoctype>, *args=(), **kwargs={'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype', 'doctype': 'Salary Slip', 'with_parent': '1'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function getdoctype>",
+    "newargs": "{'cached_timestamp': '', 'doctype': 'Salary Slip', 'with_parent': '1'}"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1583": "\tnewargs = get_newargs(fn, kwargs)",
+    "1584": "",
+    "1585": "\treturn fn(*args, **newargs)",
+    "1586": "",
+    "1587": ""
+   },
+   "lnum": 1585
+  },
+  {
+   "call": "(doctype='Salary Slip', with_parent='1', cached_timestamp='')",
+   "dump": {
+    "docs": "[]",
+    "doctype": "'Salary Slip'",
+    "global get_meta_bundle": "<function get_meta_bundle>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/load.py",
+   "func": "getdoctype",
+   "lines": {
+    "70": "",
+    "71": "\tif not docs:",
+    "72": "\t\tdocs = get_meta_bundle(doctype)",
+    "73": "",
+    "74": "\tfrappe.response[\"user_settings\"] = get_user_settings(parent_dt or doctype)"
+   },
+   "lnum": 72
+  },
+  {
+   "call": "(doctype='Salary Slip')",
+   "dump": {
+    "bundle": "undefined",
+    "doctype": "'Salary Slip'",
+    "frappe. desk": "<module 'frappe.desk' from '/home/bhavik/frappe-bench/apps/frappe/frappe/desk/__init__.py'>",
+    "frappe.desk. form": "<module 'frappe.desk.form' from '/home/bhavik/fr...-bench/apps/frappe/frappe/desk/form/__init__.py'>",
+    "frappe.desk.form. meta": "<module 'frappe.desk.form.meta' from '/home/bhav...appe-bench/apps/frappe/frappe/desk/form/meta.py'>",
+    "frappe.desk.form.meta. get_meta": "<function get_meta>",
+    "global frappe": "<module 'frappe' from '/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/load.py",
+   "func": "get_meta_bundle",
+   "lines": {
+    "81": "",
+    "82": "def get_meta_bundle(doctype):",
+    "83": "\tbundle = [frappe.desk.form.meta.get_meta(doctype)]",
+    "84": "\tfor df in bundle[0].fields:",
+    "85": "\t\tif df.fieldtype in frappe.model.table_fields:"
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(doctype='Salary Slip', cached=True)",
+   "dump": {
+    "doctype": "'Salary Slip'",
+    "global FormMeta": "<class 'frappe.desk.form.meta.FormMeta'>",
+    "meta": "None"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py",
+   "func": "get_meta",
+   "lines": {
+    "38": "\t\tmeta = frappe.cache().hget(\"doctype_form_meta\", doctype)",
+    "39": "\t\tif not meta:",
+    "40": "\t\t\tmeta = FormMeta(doctype)",
+    "41": "\t\t\tfrappe.cache().hset(\"doctype_form_meta\", doctype, meta)",
+    "42": "\telse:"
+   },
+   "lnum": 40
+  },
+  {
+   "call": "(self=<FormMeta: Salary Slip>, doctype='Salary Slip')",
+   "dump": {
+    "self": "<FormMeta: Salary Slip>",
+    "self. load_assets": "<bound method FormMeta.load_assets of <FormMeta: Salary Slip>>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py",
+   "func": "__init__",
+   "lines": {
+    "52": "\tdef __init__(self, doctype):",
+    "53": "\t\tsuper().__init__(doctype)",
+    "54": "\t\tself.load_assets()",
+    "55": "",
+    "56": "\tdef load_assets(self):"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "(self=<FormMeta: Salary Slip>)",
+   "dump": {
+    "self": "<FormMeta: Salary Slip>",
+    "self. add_code": "<bound method FormMeta.add_code of <FormMeta: Salary Slip>>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py",
+   "func": "load_assets",
+   "lines": {
+    "62": "",
+    "63": "\t\tif not self.istable:",
+    "64": "\t\t\tself.add_code()",
+    "65": "\t\t\tself.add_custom_script()",
+    "66": "\t\t\tself.load_print_formats()"
+   },
+   "lnum": 64
+  },
+  {
+   "call": "(self=<FormMeta: Salary Slip>)",
+   "dump": {
+    "self": "<FormMeta: Salary Slip>",
+    "self. add_code_via_hook": "<bound method FormMeta.add_code_via_hook of <FormMeta: Salary Slip>>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py",
+   "func": "add_code",
+   "lines": {
+    "113": "\t\t\tself.set(\"__listview_template\", get_html_format(listview_template))",
+    "114": "",
+    "115": "\t\tself.add_code_via_hook(\"doctype_js\", \"__js\")",
+    "116": "\t\tself.add_code_via_hook(\"doctype_list_js\", \"__list_js\")",
+    "117": "\t\tself.add_code_via_hook(\"doctype_tree_js\", \"__tree_js\")"
+   },
+   "lnum": 115
+  },
+  {
+   "call": "(self=<FormMeta: Salary Slip>, hook='doctype_js', fieldname='__js')",
+   "dump": {
+    "global get_code_files_via_hooks": "<function get_code_files_via_hooks>",
+    "hook": "'doctype_js'",
+    "path": "undefined",
+    "self": "<FormMeta: Salary Slip>",
+    "self. name": "'Salary Slip'"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py",
+   "func": "add_code_via_hook",
+   "lines": {
+    "138": "",
+    "139": "\tdef add_code_via_hook(self, hook, fieldname):",
+    "140": "\t\tfor path in get_code_files_via_hooks(hook, self.name):",
+    "141": "\t\t\tself._add_code(path, fieldname)",
+    "142": ""
+   },
+   "lnum": 140
+  },
+  {
+   "call": "(hook='doctype_js', name='Salary Slip')",
+   "dump": {
+    "app_name": "'employeewise_payroll'",
+    "code_hook": "{'Item': ['public/js/unicommerce/item.js'], 'Sales Invoice': ['public/js/unicommerce/sales_invoice.js'], 'Sales Order': ['public/js/unicommerce/sales_order.js'], 'Shopify Settings': ['public/js/shopify/old_settings.js'], 'Stock Entry': ['public/js/unicommerce/stock_entry.js']}",
+    "default": "undefined",
+    "frappe. get_hooks": "<function get_hooks>",
+    "global frappe": "<module 'frappe' from '/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "hook": "'doctype_js'"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py",
+   "func": "get_code_files_via_hooks",
+   "lines": {
+    "265": "\tcode_files = []",
+    "266": "\tfor app_name in frappe.get_installed_apps():",
+    "267": "\t\tcode_hook = frappe.get_hooks(hook, default={}, app_name=app_name)",
+    "268": "\t\tif not code_hook:",
+    "269": "\t\t\tcontinue"
+   },
+   "lnum": 267
+  },
+  {
+   "call": "(hook='doctype_js', default={}, app_name='employeewise_payroll')",
+   "dump": {
+    "app_name": "'employeewise_payroll'",
+    "global _dict": "<class 'frappe._dict'>",
+    "global _load_app_hooks": "<function _load_app_hooks>",
+    "global hooks": "<module 'frappe.hooks' from '/home/bhavik/frappe-bench/apps/frappe/frappe/hooks.py'>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_hooks",
+   "lines": {
+    "1469": "",
+    "1470": "\tif app_name:",
+    "1471": "\t\thooks = _dict(_load_app_hooks(app_name))",
+    "1472": "\telse:",
+    "1473": "\t\tif conf.developer_mode:"
+   },
+   "lnum": 1471
+  },
+  {
+   "call": "(*args=('employeewise_payroll',), **kwargs={})",
+   "dump": {
+    "args": "('employeewise_payroll',)",
+    "func": "<function _load_app_hooks>",
+    "kwargs": "{}",
+    "return_val": "undefined"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/utils/caching.py",
+   "func": "wrapper",
+   "lines": {
+    "55": "\t\t\treturn frappe.local.request_cache[func][args_key]",
+    "56": "\t\texcept KeyError:",
+    "57": "\t\t\treturn_val = func(*args, **kwargs)",
+    "58": "\t\t\tfrappe.local.request_cache[func][args_key] = return_val",
+    "59": "\t\t\treturn return_val"
+   },
+   "lnum": 57
+  },
+  {
+   "call": "(app_name='employeewise_payroll')",
+   "dump": {
+    "app_hooks": "undefined",
+    "global get_module": "<function get_module>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "_load_app_hooks",
+   "lines": {
+    "1443": "\tfor app in apps:",
+    "1444": "\t\ttry:",
+    "1445": "\t\t\tapp_hooks = get_module(f\"{app}.hooks\")",
+    "1446": "\t\texcept ImportError:",
+    "1447": "\t\t\tif local.flags.in_install_app:"
+   },
+   "lnum": 1445
+  },
+  {
+   "call": "(modulename='employeewise_payroll.hooks')",
+   "dump": {
+    "global importlib": "<module 'importlib' from '/usr/lib/python3.10/importlib/__init__.py'>",
+    "importlib. import_module": "<function import_module>",
+    "modulename": "'employeewise_payroll.hooks'"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_module",
+   "lines": {
+    "1321": "def get_module(modulename):",
+    "1322": "\t\"\"\"Returns a module object for given Python module name using `importlib.import_module`.\"\"\"",
+    "1323": "\treturn importlib.import_module(modulename)",
+    "1324": "",
+    "1325": ""
+   },
+   "lnum": 1323
+  },
+  {
+   "call": "(name='employeewise_payroll.hooks', package=None)",
+   "dump": {
+    "_bootstrap. _gcd_import": "<function _gcd_import>",
+    "global _bootstrap": "<module '_frozen_importlib' (frozen)>",
+    "level": "0",
+    "name": "'employeewise_payroll.hooks'",
+    "package": "None"
+   },
+   "file": "/usr/lib/python3.10/importlib/__init__.py",
+   "func": "import_module",
+   "lines": {
+    "124": "                break",
+    "125": "            level += 1",
+    "126": "    return _bootstrap._gcd_import(name[level:], package, level)",
+    "127": "",
+    "128": ""
+   },
+   "lnum": 126
+  },
+  {
+   "call": "(name='employeewise_payroll.hooks', package=None, level=0)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_gcd_import",
+   "lines": {},
+   "lnum": 1050
+  },
+  {
+   "call": "(name='employeewise_payroll.hooks', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load",
+   "lines": {},
+   "lnum": 1027
+  },
+  {
+   "call": "(name='employeewise_payroll.hooks', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load_unlocked",
+   "lines": {},
+   "lnum": 1006
+  },
+  {
+   "call": "(spec=ModuleSpec(name='employeewise_payroll.hooks', lo...loyeewise_payroll/employeewise_payroll/hooks.py'))",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_load_unlocked",
+   "lines": {},
+   "lnum": 688
+  },
+  {
+   "call": "(self=<_frozen_importlib_external.SourceFileLoader object>, module=<module 'employeewise_payroll.hooks' from '/home...loyeewise_payroll/employeewise_payroll/hooks.py'>)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap_external>",
+   "func": "exec_module",
+   "lines": {},
+   "lnum": 883
+  },
+  {
+   "call": "(f=<built-in function exec>, *args=(<code object <module> at 0x7f69f04fd000, file \"/...e_payroll/employeewise_payroll/hooks.py\", line 1>, {'__builtins__': {'ArithmeticError': <class 'ArithmeticError'>, 'AssertionError': <class 'AssertionError'>, 'AttributeError': <class 'AttributeError'>, 'BaseException': <class 'BaseException'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'BufferError': <class 'BufferError'>, 'BytesWarning': <class 'BytesWarning'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, ...}, '__cached__': '/home/bhavik/frappe-bench/apps/employeewise_payr...yeewise_payroll/__pycache__/hooks.cpython-310.pyc', '__doc__': None, '__file__': '/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/hooks.py', '__loader__': <_frozen_importlib_external.SourceFileLoader object>, '__name__': 'employeewise_payroll.hooks', '__package__': 'employeewise_payroll', '__spec__': ModuleSpec(name='employeewise_payroll.hooks', lo...loyeewise_payroll/employeewise_payroll/hooks.py'), 'app_version': '0.0.1', 'get_controller': <function get_controller>}), **kwds={})",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_call_with_frames_removed",
+   "lines": {},
+   "lnum": 241
+  },
+  {
+   "call": "()",
+   "dump": {
+    "PayrollEntry": "undefined",
+    "get_controller": "<function get_controller>"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/hooks.py",
+   "func": "<module>",
+   "lines": {
+    "1": "from . import __version__ as app_version",
+    "2": "from frappe.model.base_document import get_controller",
+    "3": "PayrollEntry = get_controller(\"Payroll Entry\")",
+    "4": "",
+    "5": "app_name = \"employeewise_payroll\""
+   },
+   "lnum": 3
+  },
+  {
+   "call": "(doctype='Payroll Entry')",
+   "dump": {
+    "_get_controller": "<function get_controller.<locals>._get_controller>",
+    "doctype": "'Payroll Entry'",
+    "site_controllers": "{'BOM': <class 'erpnext.manufacturing.doctype.bom.bom.BOM'>, 'Dashboard Chart': <class 'frappe.desk.doctype.dashboard_chart.dashboard_chart.DashboardChart'>, 'DocField': <class 'frappe.core.doctype.docfield.docfield.DocField'>, 'DocPerm': <class 'frappe.core.doctype.docperm.docperm.DocPerm'>, 'DocType': <class 'frappe.core.doctype.doctype.doctype.DocType'>, 'DocType Link': <class 'frappe.core.doctype.doctype_link.doctype_link.DocTypeLink'>, 'E Commerce Settings': <class 'erpnext.e_commerce.doctype.e_commerce_settings.e_commerce_settings.ECommerceSettings'>, 'Has Role': <class 'frappe.core.doctype.has_role.has_role.HasRole'>, 'Homepage': <class 'erpnext.portal.doctype.homepage.homepage.Homepage'>, 'Item Group': <class 'erpnext.setup.doctype.item_group.item_group.ItemGroup'>, ...}"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/model/base_document.py",
+   "func": "get_controller",
+   "lines": {
+    "79": "\tsite_controllers = frappe.controllers.setdefault(frappe.local.site, {})",
+    "80": "\tif doctype not in site_controllers:",
+    "81": "\t\tsite_controllers[doctype] = _get_controller()",
+    "82": "",
+    "83": "\treturn site_controllers[doctype]"
+   },
+   "lnum": 81
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. get_module": "<function get_module>",
+    "global frappe": "<module 'frappe' from '/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "module": "undefined",
+    "module_path": "'employeewise_payroll.employeewise_payroll.payroll_entry'"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/model/base_document.py",
+   "func": "_get_controller",
+   "lines": {
+    "57": "\t\t\t\timport_path = class_overrides[doctype][-1]",
+    "58": "\t\t\t\tmodule_path, classname = import_path.rsplit(\".\", 1)",
+    "59": "\t\t\t\tmodule = frappe.get_module(module_path)",
+    "60": "\t\t\t\tif not hasattr(module, classname):",
+    "61": "\t\t\t\t\traise ImportError(f\"{doctype}: {classname} does not exist in module {module_path}\")"
+   },
+   "lnum": 59
+  },
+  {
+   "call": "(modulename='employeewise_payroll.employeewise_payroll.payroll_entry')",
+   "dump": {
+    "global importlib": "<module 'importlib' from '/usr/lib/python3.10/importlib/__init__.py'>",
+    "importlib. import_module": "<function import_module>",
+    "modulename": "'employeewise_payroll.employeewise_payroll.payroll_entry'"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_module",
+   "lines": {
+    "1321": "def get_module(modulename):",
+    "1322": "\t\"\"\"Returns a module object for given Python module name using `importlib.import_module`.\"\"\"",
+    "1323": "\treturn importlib.import_module(modulename)",
+    "1324": "",
+    "1325": ""
+   },
+   "lnum": 1323
+  },
+  {
+   "call": "(name='employeewise_payroll.employeewise_payroll.payroll_entry', package=None)",
+   "dump": {
+    "_bootstrap. _gcd_import": "<function _gcd_import>",
+    "global _bootstrap": "<module '_frozen_importlib' (frozen)>",
+    "level": "0",
+    "name": "'employeewise_payroll.employeewise_payroll.payroll_entry'",
+    "package": "None"
+   },
+   "file": "/usr/lib/python3.10/importlib/__init__.py",
+   "func": "import_module",
+   "lines": {
+    "124": "                break",
+    "125": "            level += 1",
+    "126": "    return _bootstrap._gcd_import(name[level:], package, level)",
+    "127": "",
+    "128": ""
+   },
+   "lnum": 126
+  },
+  {
+   "call": "(name='employeewise_payroll.employeewise_payroll.payroll_entry', package=None, level=0)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_gcd_import",
+   "lines": {},
+   "lnum": 1050
+  },
+  {
+   "call": "(name='employeewise_payroll.employeewise_payroll.payroll_entry', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load",
+   "lines": {},
+   "lnum": 1027
+  },
+  {
+   "call": "(name='employeewise_payroll.employeewise_payroll.payroll_entry', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load_unlocked",
+   "lines": {},
+   "lnum": 1006
+  },
+  {
+   "call": "(spec=ModuleSpec(name='employeewise_payroll.employeewi...ise_payroll/employeewise_payroll/payroll_entry']))",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_load_unlocked",
+   "lines": {},
+   "lnum": 688
+  },
+  {
+   "call": "(self=<_frozen_importlib_external.SourceFileLoader object>, module=<module 'employeewise_payroll.employeewise_payro.../employeewise_payroll/payroll_entry/__init__.py'>)",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap_external>",
+   "func": "exec_module",
+   "lines": {},
+   "lnum": 883
+  },
+  {
+   "call": "(f=<built-in function exec>, *args=(<code object <module> at 0x7f69f11b1e70, file \"/...ewise_payroll/payroll_entry/__init__.py\", line 1>, {'__builtins__': {'ArithmeticError': <class 'ArithmeticError'>, 'AssertionError': <class 'AssertionError'>, 'AttributeError': <class 'AttributeError'>, 'BaseException': <class 'BaseException'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'BufferError': <class 'BufferError'>, 'BytesWarning': <class 'BytesWarning'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, ...}, '__cached__': '/home/bhavik/frappe-bench/apps/employeewise_payr...ayroll_entry/__pycache__/__init__.cpython-310.pyc', '__doc__': None, '__file__': '/home/bhavik/frappe-bench/apps/employeewise_payr...ll/employeewise_payroll/payroll_entry/__init__.py', '__loader__': <_frozen_importlib_external.SourceFileLoader object>, '__name__': 'employeewise_payroll.employeewise_payroll.payroll_entry', '__package__': 'employeewise_payroll.employeewise_payroll.payroll_entry', '__path__': ['/home/bhavik/frappe-bench/apps/employeewise_payr...eewise_payroll/employeewise_payroll/payroll_entry'], '__spec__': ModuleSpec(name='employeewise_payroll.employeewi...ise_payroll/employeewise_payroll/payroll_entry'])}), **kwds={})",
+   "dump": {},
+   "file": "/home/bhavik/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_call_with_frames_removed",
+   "lines": {},
+   "lnum": 241
+  },
+  {
+   "call": "()",
+   "dump": {
+    "CustomPayrollEntry": "undefined",
+    "cash_payment": "undefined",
+    "payroll_payment_entry_exists": "undefined"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/employeewise_payroll/payroll_entry/__init__.py",
+   "func": "<module>",
+   "lines": {
+    "1": "from .payroll_entry import CustomPayrollEntry, cash_payment, payroll_payment_entry_exists"
+   },
+   "lnum": 1
+  },
+  {
+   "call": "()",
+   "dump": {
+    "PayrollEntry": "undefined",
+    "employeewise_payroll": "undefined"
+   },
+   "file": "/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/employeewise_payroll/payroll_entry/payroll_entry.py",
+   "func": "<module>",
+   "lines": {
+    "1": "import frappe",
+    "2": "from frappe import _",
+    "3": "from employeewise_payroll.hooks import PayrollEntry",
+    "4": "from erpnext.accounts.utils import get_account_currency",
+    "5": "from erpnext.accounts.doctype.journal_entry.journal_entry import get_default_bank_cash_account"
+   },
+   "lnum": 3
+  }
+ ],
+ "locals": {
+  "_": "<function _>",
+  "__builtins__": "{'ArithmeticError': <class 'ArithmeticError'>, 'AssertionError': <class 'AssertionError'>, 'AttributeError': <class 'AttributeError'>, 'BaseException': <class 'BaseException'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'BufferError': <class 'BufferError'>, 'BytesWarning': <class 'BytesWarning'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, ...}",
+  "__cached__": "/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/employeewise_payroll/payroll_entry/__pycache__/payroll_entry.cpython-310.pyc",
+  "__doc__": "None",
+  "__file__": "/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/employeewise_payroll/payroll_entry/payroll_entry.py",
+  "__loader__": "<_frozen_importlib_external.SourceFileLoader object>",
+  "__name__": "employeewise_payroll.employeewise_payroll.payroll_entry.payroll_entry",
+  "__package__": "employeewise_payroll.employeewise_payroll.payroll_entry",
+  "__spec__": "ModuleSpec(name='employeewise_payroll.employeewi...oyeewise_payroll/payroll_entry/payroll_entry.py')",
+  "frappe": "<module 'frappe' from '/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py'>"
+ },
+ "pyver": "Python 3.10.6: /home/bhavik/frappe-bench/env/bin/python (prefix: /home/bhavik/frappe-bench/env)",
+ "timestamp": "2022-11-03 12:06:22.111506",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/utils/caching.py\", line 55, in wrapper\n    return frappe.local.request_cache[func][args_key]\nKeyError: 6423372103621415394\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/app.py\", line 69, in application\n    response = frappe.api.handle()\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py\", line 1585, in call\n    return fn(*args, **newargs)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/load.py\", line 72, in getdoctype\n    docs = get_meta_bundle(doctype)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/load.py\", line 83, in get_meta_bundle\n    bundle = [frappe.desk.form.meta.get_meta(doctype)]\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py\", line 40, in get_meta\n    meta = FormMeta(doctype)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py\", line 54, in __init__\n    self.load_assets()\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py\", line 64, in load_assets\n    self.add_code()\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py\", line 115, in add_code\n    self.add_code_via_hook(\"doctype_js\", \"__js\")\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py\", line 140, in add_code_via_hook\n    for path in get_code_files_via_hooks(hook, self.name):\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/desk/form/meta.py\", line 267, in get_code_files_via_hooks\n    code_hook = frappe.get_hooks(hook, default={}, app_name=app_name)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py\", line 1471, in get_hooks\n    hooks = _dict(_load_app_hooks(app_name))\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/utils/caching.py\", line 57, in wrapper\n    return_val = func(*args, **kwargs)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py\", line 1445, in _load_app_hooks\n    app_hooks = get_module(f\"{app}.hooks\")\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py\", line 1323, in get_module\n    return importlib.import_module(modulename)\n  File \"/usr/lib/python3.10/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 1050, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1027, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1006, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 688, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 883, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/hooks.py\", line 3, in <module>\n    PayrollEntry = get_controller(\"Payroll Entry\")\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/model/base_document.py\", line 81, in get_controller\n    site_controllers[doctype] = _get_controller()\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/model/base_document.py\", line 59, in _get_controller\n    module = frappe.get_module(module_path)\n  File \"/home/bhavik/frappe-bench/apps/frappe/frappe/__init__.py\", line 1323, in get_module\n    return importlib.import_module(modulename)\n  File \"/usr/lib/python3.10/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 1050, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1027, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1006, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 688, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 883, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/employeewise_payroll/payroll_entry/__init__.py\", line 1, in <module>\n    from .payroll_entry import CustomPayrollEntry, cash_payment, payroll_payment_entry_exists\n  File \"/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/employeewise_payroll/payroll_entry/payroll_entry.py\", line 3, in <module>\n    from employeewise_payroll.hooks import PayrollEntry\nImportError: cannot import name 'PayrollEntry' from partially initialized module 'employeewise_payroll.hooks' (most likely due to a circular import) (/home/bhavik/frappe-bench/apps/employeewise_payroll/employeewise_payroll/hooks.py)\n"
+}
